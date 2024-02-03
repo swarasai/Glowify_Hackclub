@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CE9832C2B6EE54600E8287E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9832B2B6EE54600E8287E /* AppDelegate.swift */; };
+		7CE9832E2B6EE54600E8287E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9832D2B6EE54600E8287E /* SceneDelegate.swift */; };
+		7CE983302B6EE54600E8287E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9832F2B6EE54600E8287E /* ViewController.swift */; };
+		7CE983332B6EE54600E8287E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE983312B6EE54600E8287E /* Main.storyboard */; };
+		7CE983352B6EE54900E8287E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE983342B6EE54900E8287E /* Assets.xcassets */; };
+		7CE983382B6EE54900E8287E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE983362B6EE54900E8287E /* LaunchScreen.storyboard */; };
+		7CE983432B6EE54900E8287E /* Glorify_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE983422B6EE54900E8287E /* Glorify_AppTests.swift */; };
+		7CE9834D2B6EE54900E8287E /* Glorify_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9834C2B6EE54900E8287E /* Glorify_AppUITests.swift */; };
+		7CE9834F2B6EE54900E8287E /* Glorify_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE9834E2B6EE54900E8287E /* Glorify_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CE9833F2B6EE54900E8287E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CE983202B6EE54600E8287E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CE983272B6EE54600E8287E;
+			remoteInfo = Glorify_App;
+		};
+		7CE983492B6EE54900E8287E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CE983202B6EE54600E8287E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CE983272B6EE54600E8287E;
+			remoteInfo = Glorify_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CE983282B6EE54600E8287E /* Glorify_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glorify_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE9832B2B6EE54600E8287E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CE9832D2B6EE54600E8287E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CE9832F2B6EE54600E8287E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CE983322B6EE54600E8287E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE983342B6EE54900E8287E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE983372B6EE54900E8287E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CE983392B6EE54900E8287E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE9833E2B6EE54900E8287E /* Glorify_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Glorify_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE983422B6EE54900E8287E /* Glorify_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorify_AppTests.swift; sourceTree = "<group>"; };
+		7CE983482B6EE54900E8287E /* Glorify_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Glorify_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE9834C2B6EE54900E8287E /* Glorify_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorify_AppUITests.swift; sourceTree = "<group>"; };
+		7CE9834E2B6EE54900E8287E /* Glorify_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glorify_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CE983252B6EE54600E8287E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE9833B2B6EE54900E8287E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE983452B6EE54900E8287E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CE9831F2B6EE54600E8287E = {
+			isa = PBXGroup;
+			children = (
+				7CE9832A2B6EE54600E8287E /* Glorify_App */,
+				7CE983412B6EE54900E8287E /* Glorify_AppTests */,
+				7CE9834B2B6EE54900E8287E /* Glorify_AppUITests */,
+				7CE983292B6EE54600E8287E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CE983292B6EE54600E8287E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE983282B6EE54600E8287E /* Glorify_App.app */,
+				7CE9833E2B6EE54900E8287E /* Glorify_AppTests.xctest */,
+				7CE983482B6EE54900E8287E /* Glorify_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE9832A2B6EE54600E8287E /* Glorify_App */ = {
+			isa = PBXGroup;
+			children = (
+				7CE9832B2B6EE54600E8287E /* AppDelegate.swift */,
+				7CE9832D2B6EE54600E8287E /* SceneDelegate.swift */,
+				7CE9832F2B6EE54600E8287E /* ViewController.swift */,
+				7CE983312B6EE54600E8287E /* Main.storyboard */,
+				7CE983342B6EE54900E8287E /* Assets.xcassets */,
+				7CE983362B6EE54900E8287E /* LaunchScreen.storyboard */,
+				7CE983392B6EE54900E8287E /* Info.plist */,
+			);
+			path = Glorify_App;
+			sourceTree = "<group>";
+		};
+		7CE983412B6EE54900E8287E /* Glorify_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CE983422B6EE54900E8287E /* Glorify_AppTests.swift */,
+			);
+			path = Glorify_AppTests;
+			sourceTree = "<group>";
+		};
+		7CE9834B2B6EE54900E8287E /* Glorify_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CE9834C2B6EE54900E8287E /* Glorify_AppUITests.swift */,
+				7CE9834E2B6EE54900E8287E /* Glorify_AppUITestsLaunchTests.swift */,
+			);
+			path = Glorify_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CE983272B6EE54600E8287E /* Glorify_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE983522B6EE54900E8287E /* Build configuration list for PBXNativeTarget "Glorify_App" */;
+			buildPhases = (
+				7CE983242B6EE54600E8287E /* Sources */,
+				7CE983252B6EE54600E8287E /* Frameworks */,
+				7CE983262B6EE54600E8287E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glorify_App;
+			productName = Glorify_App;
+			productReference = 7CE983282B6EE54600E8287E /* Glorify_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CE9833D2B6EE54900E8287E /* Glorify_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE983552B6EE54900E8287E /* Build configuration list for PBXNativeTarget "Glorify_AppTests" */;
+			buildPhases = (
+				7CE9833A2B6EE54900E8287E /* Sources */,
+				7CE9833B2B6EE54900E8287E /* Frameworks */,
+				7CE9833C2B6EE54900E8287E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CE983402B6EE54900E8287E /* PBXTargetDependency */,
+			);
+			name = Glorify_AppTests;
+			productName = Glorify_AppTests;
+			productReference = 7CE9833E2B6EE54900E8287E /* Glorify_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CE983472B6EE54900E8287E /* Glorify_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE983582B6EE54900E8287E /* Build configuration list for PBXNativeTarget "Glorify_AppUITests" */;
+			buildPhases = (
+				7CE983442B6EE54900E8287E /* Sources */,
+				7CE983452B6EE54900E8287E /* Frameworks */,
+				7CE983462B6EE54900E8287E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CE9834A2B6EE54900E8287E /* PBXTargetDependency */,
+			);
+			name = Glorify_AppUITests;
+			productName = Glorify_AppUITests;
+			productReference = 7CE983482B6EE54900E8287E /* Glorify_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CE983202B6EE54600E8287E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7CE983272B6EE54600E8287E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7CE9833D2B6EE54900E8287E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7CE983272B6EE54600E8287E;
+					};
+					7CE983472B6EE54900E8287E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7CE983272B6EE54600E8287E;
+					};
+				};
+			};
+			buildConfigurationList = 7CE983232B6EE54600E8287E /* Build configuration list for PBXProject "Glorify_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CE9831F2B6EE54600E8287E;
+			productRefGroup = 7CE983292B6EE54600E8287E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CE983272B6EE54600E8287E /* Glorify_App */,
+				7CE9833D2B6EE54900E8287E /* Glorify_AppTests */,
+				7CE983472B6EE54900E8287E /* Glorify_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CE983262B6EE54600E8287E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE983382B6EE54900E8287E /* LaunchScreen.storyboard in Resources */,
+				7CE983352B6EE54900E8287E /* Assets.xcassets in Resources */,
+				7CE983332B6EE54600E8287E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE9833C2B6EE54900E8287E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE983462B6EE54900E8287E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CE983242B6EE54600E8287E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE983302B6EE54600E8287E /* ViewController.swift in Sources */,
+				7CE9832C2B6EE54600E8287E /* AppDelegate.swift in Sources */,
+				7CE9832E2B6EE54600E8287E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE9833A2B6EE54900E8287E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE983432B6EE54900E8287E /* Glorify_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE983442B6EE54900E8287E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE9834D2B6EE54900E8287E /* Glorify_AppUITests.swift in Sources */,
+				7CE9834F2B6EE54900E8287E /* Glorify_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CE983402B6EE54900E8287E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CE983272B6EE54600E8287E /* Glorify_App */;
+			targetProxy = 7CE9833F2B6EE54900E8287E /* PBXContainerItemProxy */;
+		};
+		7CE9834A2B6EE54900E8287E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CE983272B6EE54600E8287E /* Glorify_App */;
+			targetProxy = 7CE983492B6EE54900E8287E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CE983312B6EE54600E8287E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE983322B6EE54600E8287E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE983362B6EE54900E8287E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE983372B6EE54900E8287E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CE983502B6EE54900E8287E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CE983512B6EE54900E8287E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE983532B6EE54900E8287E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PU2XHG9XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glorify_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackathonProject.Glorify-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CE983542B6EE54900E8287E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PU2XHG9XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glorify_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackathonProject.Glorify-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CE983562B6EE54900E8287E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PU2XHG9XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackathonProject.Glorify-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glorify_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glorify_App";
+			};
+			name = Debug;
+		};
+		7CE983572B6EE54900E8287E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PU2XHG9XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackathonProject.Glorify-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glorify_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glorify_App";
+			};
+			name = Release;
+		};
+		7CE983592B6EE54900E8287E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PU2XHG9XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackathonProject.Glorify-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glorify_App;
+			};
+			name = Debug;
+		};
+		7CE9835A2B6EE54900E8287E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PU2XHG9XT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HackathonProject.Glorify-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glorify_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CE983232B6EE54600E8287E /* Build configuration list for PBXProject "Glorify_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE983502B6EE54900E8287E /* Debug */,
+				7CE983512B6EE54900E8287E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE983522B6EE54900E8287E /* Build configuration list for PBXNativeTarget "Glorify_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE983532B6EE54900E8287E /* Debug */,
+				7CE983542B6EE54900E8287E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE983552B6EE54900E8287E /* Build configuration list for PBXNativeTarget "Glorify_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE983562B6EE54900E8287E /* Debug */,
+				7CE983572B6EE54900E8287E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE983582B6EE54900E8287E /* Build configuration list for PBXNativeTarget "Glorify_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE983592B6EE54900E8287E /* Debug */,
+				7CE9835A2B6EE54900E8287E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CE983202B6EE54600E8287E /* Project object */;
+}
