@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Burt's Bees Clear and Balanced Breakout Defense Foaming Face Wash .png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
